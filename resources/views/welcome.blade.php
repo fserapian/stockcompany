@@ -7,10 +7,10 @@
         <!-- font awesome CDN -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">
         <!-- main css style -->
-        <link rel="stylesheet" href="css/style.css">
-        <!-- responsive css style -->
+        <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+        {{-- <!-- responsive css style -->
         <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
-        <link rel="stylesheet" media="screen and (min-width: 1100px)" href="css/widescreen.css">
+        <link rel="stylesheet" media="screen and (min-width: 1100px)" href="css/widescreen.css"> --}}
         <title>Seraplast | Compagnie de finance</title>
     </head>
     <body class="antialiased">
