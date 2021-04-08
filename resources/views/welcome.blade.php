@@ -96,10 +96,10 @@
             <div class="container">
                 <h2 class="m-heading text-center"><span class="text-primary shadowy">Nos </span>Client</h2>
                 <div class="items">
-                    <img src="../img/logo2.png" alt="Client">
-                    <img src="../img/logo3.png" alt="Client">
-                    <img src="../img/logo4.png" alt="Client">
-                    <img src="../img/logo5.png" alt="Client">
+                    <img src="{{ asset('images/logo2.png') }}" alt="Client">
+                    <img src="{{ asset('images/logo3.png') }}" alt="Client">
+                    <img src="{{ asset('images/logo4.png') }}" alt="Client">
+                    <img src="{{ asset('images/logo5.png') }}" alt="Client">
                 </div>
             </div>
         </section>
@@ -139,12 +139,13 @@
             </div>
         </footer>
 
-        <!-- jquery file -->
-        <script src="js/jquery-3.4.1.min.js"></script>
-        <!-- main js file -->
-        <script src="js/main.js"></script>
-        <!-- google map -->
-        <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=initMap"
-            async defer></script>
+        {{-- Jquery --}}
+        <script
+            src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+            crossorigin="anonymous">
+        </script>
+        {{-- Javascript --}}
+        <script src="{{ asset('js/app.js') }}"></script>
     </body>
 </html>

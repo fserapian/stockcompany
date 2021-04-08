@@ -1840,7 +1840,22 @@ module.exports = {
   \*****************************/
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-__webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
+__webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js"); // Sticky navbar background
+
+
+window.addEventListener('scroll', function () {
+  return document.querySelector('#navbar').style.opacity = window.scrollY > 150 ? 0.9 : 1;
+}); // Smooth scrolling
+
+$('#navbar a, .btn').on('click', function (event) {
+  if (this.hash !== '') {
+    event.preventDefault();
+    var hash = this.hash;
+    $('html, body').animate({
+      scrollTop: $(hash).offset().top - 100
+    }, 800);
+  }
+});
 
 /***/ }),
 

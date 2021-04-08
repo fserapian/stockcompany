@@ -6288,7 +6288,7 @@ a {
 
 /* Showcase Header */
 #showcase {
-  background-color: #f4f4f4;
+  background: #333 url(/images/showcase2.jpg?638d070972f2ea933b596a8bc870c778) no-repeat center center/cover;
   height: 100vh;
   color: #fff;
 }
@@ -6335,7 +6335,7 @@ a {
   flex: 1;
 }
 #about .about-img {
-  background-color: green;
+  background: #444 url(/images/brainstorming.jpg?ba278a9ad38457328de0deee8ae921b5) no-repeat center center/cover;
 }
 
 /* Clients Section */

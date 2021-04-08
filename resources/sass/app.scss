@@ -25,7 +25,6 @@ a {
     color: #fcff4f;
 }
 
-
 .m-heading {
     font-size: 2rem;
     margin-bottom: 1.5rem;
@@ -146,8 +145,8 @@ a {
 
 /* Showcase Header */
 #showcase {
-    // background: #333 url('../img/showcase2.jpg') no-repeat center center/cover;
-    background-color: #f4f4f4;
+    background: #333 url('../images/showcase2.jpg') no-repeat center center/cover;
+    // background-color: #f4f4f4;
     height: 100vh;
     color: #fff;
 
@@ -200,8 +199,7 @@ a {
     }
 
     .about-img {
-        // background: #444 url('../img/brainstorming.jpg') no-repeat center center/cover;
-        background-color: green;
+        background: #444 url('../images/brainstorming.jpg') no-repeat center center/cover;
     }
 }
 
