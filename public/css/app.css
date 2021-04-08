@@ -6210,7 +6210,6 @@ a {
   font-weight: bold;
   border: none;
 }
-
 .btn:hover {
   background: #d7da44;
 }
@@ -6242,7 +6241,6 @@ a {
   margin: 0.5rem 0;
   list-style: none;
 }
-
 .list li {
   padding: 0.5rem 0;
   border-bottom: 1px dotted #444;
@@ -6252,7 +6250,6 @@ a {
 .info-link {
   color: white;
 }
-
 .info-link:hover {
   color: #fcff4f;
 }
@@ -6268,27 +6265,22 @@ a {
   justify-content: space-between;
   z-index: 1;
 }
-
 #navbar .logo {
   margin-left: 50px;
 }
-
 #navbar ul {
   display: flex;
   list-style: none;
   align-items: center;
 }
-
 #navbar ul li {
   padding: 0.5rem 0.5rem;
 }
-
 #navbar ul li a {
   color: #fff;
   padding: 0.75rem;
   margin: 0 0.25rem;
 }
-
 #navbar ul li a:hover {
   color: #fcff4f;
   border-bottom: 5px solid #fcff4f;
@@ -6300,7 +6292,6 @@ a {
   height: 100vh;
   color: #fff;
 }
-
 #showcase .showcase-content {
   display: flex;
   height: 100%;
@@ -6323,13 +6314,11 @@ a {
   display: flex;
   padding: 1rem;
 }
-
 #services .items .item {
   flex: 1;
   text-align: center;
   padding: 1rem;
 }
-
 #services .items .item i {
   color: #fcff4f;
   background: black;
@@ -6342,11 +6331,9 @@ a {
 #about {
   display: flex;
 }
-
 #about div {
   flex: 1;
 }
-
 #about .about-img {
   background-color: green;
 }
@@ -6356,7 +6343,6 @@ a {
   display: flex;
   flex-direction: row;
 }
-
 #clients .items img {
   display: block;
   margin: auto;
@@ -6367,21 +6353,16 @@ a {
 #contact {
   display: flex;
 }
-
 #contact .contact-form, #contact .map {
   flex: 1;
 }
-
-#contact .contact-form .form-group {
+#contact .contact-form .form-group, #contact .map .form-group {
   margin: 0.75rem;
 }
-
-#contact .contact-form form .form-group label {
+#contact .contact-form .form-group label, #contact .map .form-group label {
   display: block;
 }
-
-#contact .contact-form input,
-#contact .contact-form textarea {
+#contact .contact-form input, #contact .contact-form textarea, #contact .map input, #contact .map textarea {
   width: 100%;
   padding: 0.5rem;
 }
